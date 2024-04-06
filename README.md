@@ -47,7 +47,7 @@ I also tried using `Data.ByteString.Char8`,
 but it gave very similar results as `Data.Text`:
 
 |       rows | runs | result (ms) |    ± |
-|-----------:|-----:|:-----------:|-----:|
+|-----------:|-----:|------------:|-----:|
 |      1 000 |  160 |        13.3 |  0.4 |
 |     10 000 |   60 |        51.3 |  5.1 |
 |    100 000 |   10 |       396.5 |  5.6 |
