@@ -1,0 +1,17 @@
+cabal-version:   3.4
+name:            1brc-hs
+version:         0.1.0.0
+license:         NONE
+author:          Paul Joubert
+maintainer:      paul@trespaul.com
+build-type:      Simple
+
+common warnings
+    ghc-options: -Wall
+
+executable 1brc-hs
+    import:           warnings
+    main-is:          Main.hs
+    build-depends:    base, containers, text
+    hs-source-dirs:   src
+    default-language: GHC2021
